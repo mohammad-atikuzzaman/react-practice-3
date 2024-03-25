@@ -15,7 +15,6 @@ const Jobs = () => {
   return (
     <div>
       <div className="grid mx-4 grid-cols-1 lg:grid-cols-2 gap-6">
-        {" "}
         {jobs.slice(0, dataLength).map((job) => (
           <Job key={job.id} job={job}></Job>
         ))}

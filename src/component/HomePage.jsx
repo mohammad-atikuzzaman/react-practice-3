@@ -100,7 +100,10 @@ export default function HomePage() {
           </p>
         </div>
       </div>
-      <Jobs></Jobs>
+      <div>
+        <h2>jfdkfjdklsfh</h2>
+        <Jobs></Jobs>
+      </div>
     </div>
   );
 }

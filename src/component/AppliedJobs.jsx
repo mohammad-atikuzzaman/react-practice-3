@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import { getStoredJob } from "./storedJobs";
 import { useEffect, useState } from "react";
-import StoredJObs from "./StoredJObs";
+import StoredJObsC from "./StoredJObsC";
 
 const AppliedJobs = () => {
   const allJobs = useLoaderData();
@@ -52,7 +52,7 @@ const AppliedJobs = () => {
       </div>
       <div>
         {myStoredJobs.map((storedJob) => (
-          <StoredJObs key={storedJob.id} storedJob={storedJob}></StoredJObs>
+          <StoredJObsC key={storedJob.id} storedJob={storedJob}></StoredJObsC>
         ))}
       </div>
     </div>

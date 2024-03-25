@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const StoredJObs = ({ storedJob }) => {
+const StoredJObsC = ({ storedJob }) => {
   const {
     id,
     logo,
@@ -45,4 +45,4 @@ const StoredJObs = ({ storedJob }) => {
   );
 };
 
-export default StoredJObs;
+export default StoredJObsC;
